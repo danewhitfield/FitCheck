@@ -1,4 +1,4 @@
-# FitCheck
+# FitCheck✓
 
 ### 3D, trainer customiser to get that perfect fit check on your customised trainers before committing to a purchase.
 Find a deployed version of it here: [FitCheck✓](https://fitcheck.netlify.app/)
