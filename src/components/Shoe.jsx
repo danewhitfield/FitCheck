@@ -5,9 +5,10 @@ import { autoCursor, customCursor } from '../utils';
 import { angleToRadians } from '../utils';
 
 const Shoe = ({ ...props }) => {
+	const gltfPath = '../../public/models/custom-shoe/shoe.gltf';
 	const group = useRef();
 	const snap = useSnapshot(props.state);
-	const { nodes, materials } = useGLTF('/public/models/custom-shoe/shoe.gltf');
+	const { nodes, materials } = useGLTF(gltfPath);
 	const [hovered, setHovered] = useState(null);
 
 	useEffect(() => {
