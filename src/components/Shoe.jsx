@@ -7,7 +7,7 @@ import { angleToRadians } from '../utils';
 const Shoe = ({ ...props }) => {
 	const group = useRef();
 	const snap = useSnapshot(props.state);
-	const { nodes, materials } = useGLTF('./public/models/custom-shoe/shoe.gltf');
+	const { nodes, materials } = useGLTF('/public/models/custom-shoe/shoe.gltf');
 	const [hovered, setHovered] = useState(null);
 
 	useEffect(() => {
